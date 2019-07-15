@@ -1,0 +1,5 @@
+
+- "nested list" là các danh sách l?ng nhau
+
+- không th? luu tr? c? intergers và strings trong 1 list
+
