@@ -4,17 +4,17 @@ for(;;){
     if(q === "r"){
     }
     else if(q === "c"){
-        let newItem = prompt("Enter new item: ");
+        let newItem = prompt("New item?");
         items.push(newItem);
     }
     else if(q === "u"){
-        let indexOfItem = Number(prompt(`Update position?`));
-        let newItem = prompt("Enter new item: ");
-        items[indexOfItem-1]=newItem;       
+        let itemIndex = Number(prompt("Update position?"));
+        let newItem = prompt("New item?");
+        items[itemIndex-1]=newItem;       
     }
     else if(q === "d"){
-        let indexOfItem = Number(prompt(`Delete position?`));
-        items.splice(indexOfItem -1 ,1);        
+        let itemIndex = Number(prompt("Delete position?"));
+        items.splice(itemIndex -1 ,1);        
     }
     else{
         break;
