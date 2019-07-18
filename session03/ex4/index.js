@@ -7,7 +7,7 @@ console.log(`Hello, my name is Minh and here is my flock ${flock}`);
 for(let month = 1;;month++){
     if(month>1){
         bored = prompt(`${month -1} month has passed!Bored yet? (y/n)`).toLowerCase();
-        if (bored ===`y`){
+        if (bored ==="y"){
             break;
         }
     }
