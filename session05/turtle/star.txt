@@ -1,0 +1,8 @@
+rt(15);
+let drawStar = (length) => {
+	for(let i=0;i<5;i++){
+		fd(length);
+		rt(144);
+    }
+}
+drawStar(100);

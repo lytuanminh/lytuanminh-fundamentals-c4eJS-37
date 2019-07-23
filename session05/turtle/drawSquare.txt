@@ -1,0 +1,8 @@
+let drawSquare = (length, Color) => {
+	color(Color);
+	for(let i=0;i<4;i++){
+    	fd(length);
+    	rt(90);  
+    }
+}
+drawSquare(100, "blue");

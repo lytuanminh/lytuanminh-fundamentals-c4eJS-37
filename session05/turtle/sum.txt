@@ -1,0 +1,5 @@
+sum = (x, y) => {
+    	penup();
+    	text(x+y);
+    }
+sum(1, 2);
